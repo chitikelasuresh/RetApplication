@@ -1,0 +1,10 @@
+---
+applications:
+- name: cf-spring
+  memory: 770M
+  instances: 1
+  random-route: true
+  env:
+    ENV_VAR_1: MYVALUE
+    ENV_VAR_2: ZZZ
+ 
